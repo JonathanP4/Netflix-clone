@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem;
+  font-size: 0.7rem;
+  position: relative;
+  z-index: 20;
+}
+
+.logo {
+  width: 89px;
+}
+
+.inputsContainer {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .inputsContainer {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,55 @@
+.loginContainer {
+  padding: 0 1.5rem;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 600px) {
+  .form {
+    display: flex;
+  }
+}
+
+.buttonBig {
+  padding: 0.7rem 1rem;
+}
+
+.emailInputContainer {
+  text-align: left;
+  position: relative;
+  padding: 0.7rem 1rem;
+  padding-bottom: 5px;
+  border-radius: 0.3rem;
+  border: 1px solid hsl(var(--Light-gray));
+  color: hsl(var(--Light-gray));
+  background-color: hsl(var(--Gray-bg));
+  font-size: 1rem;
+}
+
+.email {
+  font-size: inherit;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.label {
+  position: absolute;
+  transition: 0.3s;
+}
+
+.label.focusedLabel {
+  top: 2px;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}

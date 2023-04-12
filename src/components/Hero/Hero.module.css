@@ -1,0 +1,16 @@
+.hero {
+  color: white;
+  text-align: center;
+  padding: 2rem 1.6rem;
+  position: relative;
+  z-index: 20;
+}
+
+h1,
+p {
+  margin-bottom: 1.3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Netflix";
+  src: url("/src/assets/Fonts/NetflixSans_W_Rg.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Netflix";
+  src: url("/src/assets/Fonts/NetflixSans_W_Md.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Netflix";
+  src: url("/src/assets/Fonts/NetflixSans_W_Bd.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Netflix";
+  src: url("/src/Fonts/NetflixSans_W_Blk.woff2") format("woff2");
+  font-weight: 800;
+}
+* {
+  font-family: "Netflix", sans-serif;
+}
+:root {
+  --Red: 357, 92%, 47%;
+  --Gray: 0, 0%, 18%;
+  --Blue: 211, 100%, 46%;
+  --Light-gray: 202, 13%, 67%;
+  --Gray-bg: 180, 5%, 8%;
+}

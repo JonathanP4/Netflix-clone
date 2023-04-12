@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: hsl(var(--Gray));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  display: inline-block;
+}
+
+button,
+select,
+input {
+  color: inherit;
+  border: 0;
+  background: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+}
