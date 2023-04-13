@@ -6,11 +6,12 @@
 
 .select {
   display: flex;
-  border: 1px solid white;
+  border: 1px solid hsl(60, 1%, 37%);
   padding: 0.4rem 0.5rem;
   width: 6.2rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  font-weight: 400;
 }
 
 @media (min-width: 600px) {

@@ -24,7 +24,37 @@
 :root {
   --Red: 357, 92%, 47%;
   --Gray: 0, 0%, 18%;
-  --Blue: 211, 100%, 46%;
+  --Blue: 215, 89%, 61%;
   --Light-gray: 202, 13%, 67%;
   --Gray-bg: 180, 5%, 8%;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 1rem 0;
+  background: black;
+  position: relative;
+  z-index: 20;
+}
+
+#tv_img_video {
+  left: 13%;
+  width: 73%;
+  top: 20.4%;
+  max-width: 464.44px;
+}
+/* @media (min-width: 672px) {
+  #tv_img_video {
+    left: 5.2rem;
+  }
+} */
+#device_pile_video {
+  left: 20%;
+  width: 60%;
+  top: 17%;
+}
+#device_pile_img {
+  margin-top: 1rem;
+}
+#netflix_kids_img {
+  margin-top: 1rem;
 }

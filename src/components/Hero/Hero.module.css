@@ -1,16 +1,18 @@
 .hero {
   color: white;
   text-align: center;
-  padding: 2rem 1.6rem;
+  padding: 2rem 1rem;
   position: relative;
   z-index: 20;
 }
 
-h1,
-p {
-  margin-bottom: 1.3rem;
+@media (min-width: 600px) {
+  .hero {
+    margin-top: 2rem;
+  }
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.13rem;
+  margin-top: 1rem;
 }
