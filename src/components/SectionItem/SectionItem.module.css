@@ -1,15 +1,5 @@
-.sectionItem {
-  color: white;
-  text-align: center;
-  padding: 3.5rem 1.15rem;
-  border-bottom: 8px solid hsl(var(--Gray));
-}
-
 .sectionItem h2 {
   font-size: 2rem;
-}
-.sectionItem p {
-  margin-top: 1rem;
 }
 
 .imgContainer {

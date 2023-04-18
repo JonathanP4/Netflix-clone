@@ -1,0 +1,30 @@
+.faqItemsContainer {
+  display: grid;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.faqContainer {
+  display: grid;
+  gap: 2px;
+}
+
+.faqContainer span {
+  font-size: 1.13rem;
+}
+.questionContainer,
+.answerContainer {
+  background-color: hsl(var(--Gray));
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.answerContainer {
+  padding: 1.5rem;
+  text-align: left;
+}

@@ -1,16 +1,9 @@
+import SectionCard from "../SectionCard/SectionCard";
 import styles from "./SectionItem.module.css";
-import { VIDEO_URLS } from "../../helpers/variables";
-import tvImg from "../../assets/img/tv.png";
 
-const SectionItem: React.FC<{
-  title: string;
-  text: string;
-  imgSrc: string;
-  videoSrc?: string;
-  alt: string;
-}> = (props) => {
+const SectionItem = (props: any) => {
   return (
-    <div className={styles.sectionItem}>
+    <SectionCard>
       <div>
         <h2>{props.title}</h2>
         <p>{props.text}</p>
@@ -26,8 +19,9 @@ const SectionItem: React.FC<{
             src={props.videoSrc}
           />
         )}
+        {props.children}
       </div>
-    </div>
+    </SectionCard>
   );
 };
 
