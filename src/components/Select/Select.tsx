@@ -16,9 +16,14 @@ const Select = (props: any) => {
   };
 
   return (
-    <div onClick={displaySelector} className={styles.selectContainer}>
+    <div
+      onClick={displaySelector}
+      className={`${styles.selectContainer} ${
+        props.className ? props.className : ""
+      }`}
+    >
       <div
-        className={`${styles.select} ${props.className ? props.className : ""}`}
+        className={styles.select}
         aria-label="select-language"
         aria-hidden="true"
       >
@@ -27,17 +32,11 @@ const Select = (props: any) => {
         <i className="fa fa-caret-down"></i>
       </div>
       {display && (
-        <div
-          className={`${styles.options} ${
-            props.className ? props.className : ""
-          }`}
-        >
+        <div className={styles.options}>
           {props.options.map((opt: option) => (
             <div
               onClick={selectLanguage}
-              className={`${styles.option} ${
-                props.className ? props.className : ""
-              }`}
+              className={styles.option}
               key={opt.value}
             >
               {opt.lang}

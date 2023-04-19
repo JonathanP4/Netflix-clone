@@ -3,7 +3,7 @@ import logo from "/src/assets/img/logo.svg";
 import Button from "../Button/Button";
 import Select from "../Select/Select";
 
-const languages = [
+export const languages = [
   { value: "en-US", lang: "English" },
   { value: "pt-BR", lang: "Português" },
 ];

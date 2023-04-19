@@ -1,6 +1,7 @@
 import styles from "./FaqComponent.module.css";
 import { faqs } from "../../data/faqs";
 import SectionCard from "../SectionCard/SectionCard";
+import Login from "../Login/Login";
 
 type faqContent = {
   question: string;
@@ -22,6 +23,7 @@ const FaqComponent = (props: any) => {
           </div>
         ))}
       </div>
+      <Login className={styles['mt-2']}/>
     </SectionCard>
   );
 };

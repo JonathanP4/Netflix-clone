@@ -2,14 +2,18 @@ import styles from "./Login.module.css";
 import Button from "../Button/Button";
 import { useState } from "react";
 
-const Login = () => {
+const Login = (props: any) => {
   const [focus, setFocus] = useState(false);
 
   const setLabelActive = () => setFocus(true);
   const setLabelInactive = () => setFocus(false);
 
   return (
-    <div className={styles.loginContainer}>
+    <div
+      className={`${styles.loginContainer} ${
+        props.className ? props.className : ""
+      }`}
+    >
       <h3>
         Ready to watch? Enter your email to create or restart your membership.
       </h3>
