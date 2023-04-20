@@ -1,31 +1,14 @@
 import "./App.css";
-
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Background from "./components/Backgorund/Background";
-import AdsPlan from "./components/AdsPlan/AdsPlan";
-import SectionsContainer from "./components/SectionsContainer/SectionsContainer";
-import FaqComponent from "./components/Faq/FaqComponent";
-import Footer from "./components/Footer/Footer";
+import LanguageSelect from "./components/UI/LanguageSelect/LanguageSelect";
+import SignInBtn from "./components/UI/SignIn/SignIn";
 
 function App() {
   return (
-    <>
-      <main>
-        <Background>
-          <Navbar />
-          <Hero />
-        </Background>
-        <section>
-          <AdsPlan />
-          <SectionsContainer />
-          <FaqComponent />
-        </section>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </>
+    <div>
+      <h2>NETFLIX SANS</h2>
+      <LanguageSelect id="nav_lang_select" classes="" />
+      <SignInBtn classes="" type="button"/>
+    </div>
   );
 }
 
