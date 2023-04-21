@@ -1,0 +1,36 @@
+.masterDiv {
+}
+
+.emailInputContainer {
+  padding: 1.25rem 1rem;
+  padding-bottom: 0.25rem;
+  position: relative;
+  font-family: Netflix Sans;
+  flex-grow: 1;
+  min-height: 3.2rem;
+}
+
+.emailInputContainer label {
+  transition: all 100ms;
+  color: hsl(0, 0%, 100%, 0.8);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+label.activeLabel {
+  font-size: 0.7rem;
+  top: 0.8rem;
+}
+
+.emailInputContainer input {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .emailInputContainer {
+    padding: 1.5rem 1rem;
+    padding-bottom: 0.5rem;
+  }
+}

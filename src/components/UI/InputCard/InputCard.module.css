@@ -1,0 +1,10 @@
+.inputContainer {
+  position: relative;
+  background-color: hsl(var(--Gray), 0.7);
+  border: 1px solid hsl(var(--Light-gray));
+  border-radius: 0.25rem;
+  color: white;
+  display: inline-flex;
+  min-width: auto;
+  width: auto;
+}

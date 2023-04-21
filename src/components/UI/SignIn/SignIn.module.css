@@ -2,9 +2,9 @@
   color: white;
   background-color: hsl(var(--Red));
   border-radius: 0.25rem;
-  font-size: 1rem;
   font-weight: 500;
   font-family: Netflix Sans;
+  min-height: 2.05rem;
 }
 
 .btnSignIn a {

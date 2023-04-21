@@ -1,0 +1,7 @@
+.btnCard {
+  color: white;
+  background-color: hsl(var(--Red));
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-family: Netflix Sans;
+}

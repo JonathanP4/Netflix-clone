@@ -1,0 +1,49 @@
+.footerMaster {
+  color: hsl(0, 0%, 100%, 0.7);
+  background-color: hsl(240, 100%, 5%);
+  padding: 6rem 2rem;
+  position: relative;
+}
+
+.contactList {
+  margin-top: 3rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.contactList li {
+  font-size: 0.875rem;
+}
+
+.footerLangSelect {
+  margin: 2rem 0;
+}
+
+.copyright {
+  font-size: 0.875rem;
+}
+
+.attribution {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  left: 0;
+  line-height: 1.25rem;
+  font-size: 12px;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contactList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .contactList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

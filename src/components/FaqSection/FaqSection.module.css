@@ -1,0 +1,93 @@
+.faqSectionMaster {
+  background: hsl(223, 100%, 6%);
+  color: white;
+  padding: 0 2rem;
+  padding-top: 6rem;
+}
+.faqItemsContainer {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.faqItemsContainer h2 {
+  font-size: 2rem;
+}
+
+.faqItemContainer {
+  font-size: 1.13rem;
+  font-weight: 300;
+  display: grid;
+  gap: 2px;
+  position: relative;
+}
+
+.questionContainer {
+  padding: 1.5rem;
+  background-color: rgb(19, 33, 68);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questionContainer:focus {
+  background-color: hsl(224, 48%, 26%);
+}
+
+.questionContainer svg {
+  width: 1rem;
+}
+
+.answerContainer {
+  transition: transform 0.3s;
+  padding: 1.5rem;
+  background-color: rgb(19, 33, 68);
+  display: none;
+  transform: translateY(-10rem) scaleY(0);
+}
+
+.answerContainer.visible {
+  display: block;
+  animation: show 0.2s ease-in-out forwards;
+}
+
+.faqCreateAccount {
+  margin-top: 1rem;
+}
+
+@keyframes show {
+  from {
+    transform: translateY(-50%) scaleY(0);
+  }
+  to {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@media (min-width: 600px) {
+  .faqItemsContainer h2 {
+    font-size: 2.5rem;
+  }
+
+  .faqItemsContainer {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+@media (min-width: 960px) {
+  .faqItemContainer {
+    font-size: 1.5rem;
+  }
+
+  .questionContainer svg {
+    width: 1.875rem;
+  }
+
+  .faqCreateAccount p {
+    font-size: 1.25rem;
+  }
+
+  .faqCreateAccount {
+    width: 90%;
+  }
+}

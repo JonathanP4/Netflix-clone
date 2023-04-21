@@ -1,0 +1,27 @@
+.gridItemsContainer {
+  padding: 0 1.5rem;
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  background: linear-gradient(
+    to top,
+    hsl(240, 100%, 5%),
+    hsla(240, 100%, 5%, 0.9),
+    hsla(240, 100%, 5%, 0.8),
+    hsla(240, 100%, 5%, 0.7),
+    hsla(240, 100%, 5%, 0.1)
+  );
+}
+
+@media (min-width: 600px) {
+  .gridItemsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .gridItemsContainer {
+    margin-top: 3rem;
+    padding: 0 2rem;
+  }
+}

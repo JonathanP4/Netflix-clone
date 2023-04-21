@@ -1,0 +1,16 @@
+.createAccountContainer p{
+  margin-bottom: 1rem;
+}
+
+.createAccount {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .createAccount {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

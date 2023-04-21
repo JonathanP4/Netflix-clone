@@ -1,13 +1,11 @@
+import ButtonCard from "../ButtonCard/ButtonCard";
 import classes from "./SignIn.module.css";
 
-const SignInBtn: React.FC<{
-  classes: string;
-  type: "submit" | "button" | "reset";
-}> = (props) => {
+const SignInBtn = (props: any) => {
   return (
-    <button className={classes.btnSignIn} type={props.type}>
+    <ButtonCard className={classes.btnSignIn} type={props.type}>
       <a href="#"> Sign In</a>
-    </button>
+    </ButtonCard>
   );
 };
 

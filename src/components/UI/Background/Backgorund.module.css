@@ -1,0 +1,15 @@
+.backgroundContainer {
+  isolation: isolate;
+  z-index: -2;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-image: linear-gradient(
+      103.24deg,
+      rgba(0, 8, 29, 0.9) 23.83%,
+      rgba(0, 8, 29, 0.3) 96.1%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/a05047e3-74a3-4803-9a6a-70710da6ea00/BR-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+}
