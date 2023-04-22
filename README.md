@@ -1,8 +1,8 @@
 # Netflix landing page clone
 
 
+[Live site URL](https://netflix-clone-htcsjs.vercel.app) <br/>
 [Side Notes](#side-notes)
-
 
 ### Tools I used:
 
