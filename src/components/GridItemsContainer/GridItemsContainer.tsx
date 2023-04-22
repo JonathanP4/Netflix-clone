@@ -38,7 +38,7 @@ const GridItemsContainer = (props: any) => {
       {itemsData.map((item, index) => {
         return (
           <GridItem
-            className={classes.item}
+            className=""
             key={index}
             alt={item.alt}
             src={item.imgSrc}

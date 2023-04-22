@@ -27,13 +27,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s ease-in-out;
 }
 
-.questionContainer:focus {
+.questionContainer:hover {
   background-color: hsl(224, 48%, 26%);
 }
 
 .questionContainer svg {
+  transition: 0.2s ease-in-out;
   width: 1rem;
 }
 
@@ -45,9 +49,17 @@
   transform: translateY(-10rem) scaleY(0);
 }
 
-.answerContainer.visible {
+.faqItemContainer.active .questionContainer {
+  background-color: hsl(224, 48%, 26%);
+}
+
+.faqItemContainer.active .answerContainer {
   display: block;
   animation: show 0.2s ease-in-out forwards;
+}
+
+.faqItemContainer.active .questionContainer svg {
+  transform: rotate(44deg);
 }
 
 .faqCreateAccount {

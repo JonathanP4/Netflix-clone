@@ -4,4 +4,10 @@
   border-radius: 0.25rem;
   font-weight: 500;
   font-family: Netflix Sans;
+  transition: background-color 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.btnCard:hover {
+  background-color: hsl(357, 92%, 40%);
 }

@@ -7,6 +7,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+#root {
+  display: grid;
+  place-content: center;
+}
+
 body {
   margin: 0;
   padding: 0;

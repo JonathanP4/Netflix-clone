@@ -15,17 +15,19 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .gridItem {
+    padding: 2.75rem 6.25rem 2.5rem 6.25rem;
+  }
+}
+
 .gridItem .gridItemText p {
   margin-top: 1rem;
 }
 
 .gridItem img {
   max-width: 400px;
-}
-
-.gridItem div:has(img) {
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .gridItem .gridItemText p:nth-of-type(1) {

@@ -6,10 +6,9 @@ const FaqSection = (props: any) => {
   const toggleAnswer = (e: BaseSyntheticEvent) => {
     const el = e.target.closest("div");
     const parent = el.parentNode;
-    if (el.classList.contains(classes.questionContainer)) {
-      const questionItem = parent.querySelector(`.${classes.answerContainer}`);
 
-      questionItem.classList.toggle(classes.visible);
+    if (el.classList.contains(classes.questionContainer)) {
+      parent.classList.toggle(classes.active);
     }
   };
   return (

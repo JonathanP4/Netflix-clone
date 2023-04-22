@@ -1,6 +1,3 @@
-.masterDiv {
-}
-
 .emailInputContainer {
   padding: 1.25rem 1rem;
   padding-bottom: 0.25rem;
@@ -8,6 +5,7 @@
   font-family: Netflix Sans;
   flex-grow: 1;
   min-height: 3.2rem;
+  cursor: text;
 }
 
 .emailInputContainer label {
@@ -26,6 +24,8 @@ label.activeLabel {
 
 .emailInputContainer input {
   width: 100%;
+  font-size: 1rem;
+  font-family: Netflix Sans, sans-serif;
 }
 
 @media (min-width: 600px) {
