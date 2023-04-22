@@ -40,4 +40,4 @@ And trust me, they change the site fairly often (i had to redo this site 3 times
 <br/>
 Also i'm brazilian so this clone is based off of the BR-EN version of the site (hence some of the info like prices are in BRL but the text is in english). I'm not sure if the site's design changes completely depending on the country you are in but there is a chance it does so that's the reason for this side note.
 
-**If you ares still reading this, thanks for checking out this project, i hope you like my**
+**If you ares still reading this, thanks for checking out this project, i hope you like it, and that it looks good on your screen size :)**
